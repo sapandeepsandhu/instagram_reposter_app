@@ -1,0 +1,34 @@
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.4.2
+pydantic-settings==2.0.3
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+psycopg2-binary==2.9.9  # For PostgreSQL support
+
+# Task Queue
+celery==5.3.4
+redis==5.0.1
+
+# Authentication and Security
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.6
+
+# Instagram API
+instagrapi==2.0.0
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+aiohttp==3.8.6
+pillow==10.1.0  # For image processing
+cryptography==41.0.5  # For encryption
+
+# Testing
+pytest==7.4.3
+httpx==0.25.1  # For async HTTP testing 
